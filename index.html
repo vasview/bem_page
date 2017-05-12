@@ -48,12 +48,14 @@
 			<div class="info-block form-block">
 				<h2 class="info-block__title">Ask a question</h2>
 				<div class="form-questions">
-					<div class="form-questions__row">
-						<input type="text" id="name" class="form-questions__row--input form-questions__row--name" placeholder="Name">
-						<input type="email" id="mail" class="form-questions__row--input form-questions__row--email" placeholder="Email">
-					</div>
-					<textarea name="user-question" id="user-question" class="form-questions__textarea">Your question</textarea>
-					<button class="btn">Send</button>
+					<form action="#">
+						<div class="form-questions__row">
+							<input type="text" id="name" class="req form-questions__row--input form-questions__row--name" placeholder="Name">
+							<input type="email" id="mail" class="req form-questions__row--input form-questions__row--email" placeholder="Email">
+						</div>
+						<textarea name="user-question" id="user-question" class="form-questions__textarea">Your question</textarea>
+						<button class="btn">Send</button>
+					</form>
 				</div>
 			</div>
 		</div><!-- /contact-block -->
@@ -68,5 +70,8 @@
 			</div>
 		</div>
 	</footer>
+<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+<script src="vendor/inputmask/jquery.inputmask.bundle.min.js"></script>
+<script src="scripts/js/main.js"></script>	
 </body>
 </html>
