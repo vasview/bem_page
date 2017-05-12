@@ -80,10 +80,10 @@ header {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.address-block {
+.info-block.address-block {
 	width: 48%;
 }
-.form-block {
+.info-block.form-block {
 	width: 52%;
 	box-sizing: border-box;
 	padding: 0 0 0 10px;
@@ -102,6 +102,7 @@ header {
 	float: left;
 	width: 50%;
 	box-sizing: border-box;
+	margin-bottom: 10px;
 }
 .address-details {
 	margin: 0;
@@ -131,9 +132,8 @@ header {
 	color: #fff;	
 }
 .map-block {
-	width: 260px;
+	max-width: 260px;
 	float: left;
-	width: 50%;
 	height: 220px;
 	box-sizing: border-box;
 }
@@ -141,7 +141,10 @@ header {
 	padding-left: 20px;
 }
 .form-questions__row {
+	max-width: 260px;
 	width: 100%;
+	display: inline-block;
+	margin: 0 0 0 11px;
 }
 .form-questions__row--input {
 	display: inline-block;
@@ -183,12 +186,6 @@ header {
 .form-questions__row--input:not(:last-child){
 	margin-right: 16px;
 	margin-left: 10px;
-}
-.form-questions__row--name {
-
-}
-.form-questions__row--email {
-
 }
 .form-questions__textarea {
 	max-width: 540px;
@@ -244,7 +241,7 @@ footer {
 	height: 62px;
 	border-radius: 50%;
 	background: #82c7bc;
-	margin: 39px 0px 0 35px;
+	margin: 39px 0 0 35px;
 }
 .social-block__icon a {
 	display: block;

@@ -1,0 +1,67 @@
+@media screen and (max-width: 1140px) {
+	.info-block.address-block {
+		width: 35%;
+	}
+	.contact-details {
+		width: 100%;
+		margin: 0 auto 20px;
+	}
+	.address-details__country {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.info-block.address-block {
+		width: 100%;
+		padding-left: 25%;
+	}
+	.info-block.form-block {
+		width: 100%;
+		padding-left: 15%;
+	}
+	.info-block__title {
+		padding: 0 0 0 15%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.main-block__title {
+		font-size: 40px;
+	}
+	.info-block.address-block {
+		padding-left: 5%;
+	}
+	.info-block.form-block {
+		padding-left: 2%;
+	}
+	.form-questions {
+		padding-left: 1%;
+	}
+	.form-questions__row {
+		width: 90%;
+		margin: 0;
+	}
+	.form-questions__textarea {
+		width: 90%;
+		margin-left: 1%;
+	}
+	.info-block__title {
+		padding: 0 0 0 10%;
+	}
+	.btn {
+		width: 50%;
+	}
+	.social-block {
+		width: 100%;
+	}
+	.social-block__icon {
+		display: inline-block;
+		width: 52px;
+		height: 52px;
+		border-radius: 50%;
+		background: #82c7bc;
+		margin: 50px 0 0 5%;
+	}
+	.social-block__icon a {
+	  background-size: 52px 52px;
+	}
+}
